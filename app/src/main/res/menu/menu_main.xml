@@ -1,10 +1,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.carlitosdroid.demo_move_items_recyclerview.MainActivity">
+    tools:context="com.carlitosdroid.demo_move_items_recyclerview.main.MainActivity">
+
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:id="@+id/action_move"
+        android:icon="@drawable/move_arrows"
+        android:orderInCategory="101"
+        android:title="Mover"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_clear1"
+        android:icon="@drawable/broom"
+        android:orderInCategory="102"
+        android:title="Limpiar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_clear2"
+        android:orderInCategory="103"
+        android:title="Limpiar"
         app:showAsAction="never" />
+
 </menu>
